@@ -58,3 +58,8 @@ jpgprocessed.close()
 
 #write to s3
 s3.Object(bucket, '<file>.jpeg').upload_file('/home/../../<file>.jpeg')
+
+#clean up
+import os
+os.remove(processfname)
+os.remove(tmpfname)
