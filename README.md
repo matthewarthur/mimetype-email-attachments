@@ -8,3 +8,5 @@ see https://github.com/martysweet/aws-lambda-attachment-extractor/blob/master/la
 
 #ec2exec
 ensure gh repo token is in ssm-parameter store. script location: {"owner":"matthewarthur", "repository": "mimetype-email-attachments", "path": "/test2execawslinux", "tokenInfo":"{{ssm-secure:gh-mattarthur-read}}" }
+
+#sqshandler make sure you have an IAM role assigned to the instance with permissions
