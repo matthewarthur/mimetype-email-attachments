@@ -3,3 +3,4 @@ yum install -y git
 yum install -y gcc
 yum install build-essential -y g++
 git clone https://github.com/pjreddie/darknet.git
+cd darknet; make
