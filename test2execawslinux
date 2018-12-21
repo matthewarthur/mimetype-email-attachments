@@ -1,4 +1,5 @@
 #!/bin/bash 
+yum install git
 yum install -y gcc. 
 yum install build-essential -y g++
 
