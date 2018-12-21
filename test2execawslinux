@@ -4,4 +4,7 @@ yum groupinstall -y 'Development Tools'
 yum install -y gcc
 yum install build-essential -y g++
 
+sudo yum install -y python-pip python3-wheel && pip install -y boto3 --user
+python -m pip install -y --user boto3
 git clone https://github.com/pjreddie/darknet.git /home/ec2-user/darknet/
+cd /home/ec2-user/darknet/ && make
